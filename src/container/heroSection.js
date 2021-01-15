@@ -6,9 +6,9 @@ export function HeroContainer() {
     return (
         <HeroSection>
             <HeroSection.TextWrapper>
-                <HeroSection.TextBig>Główny Nagłówek na stronie</HeroSection.TextBig>
-                <HeroSection.Button>Głowny Przycisk na stronie</HeroSection.Button>
-                <HeroSection.Text>Tekst do uzupelnienia</HeroSection.Text>
+                <HeroSection.TextBig>Rekrutacja do 3 sezonu otwarta!</HeroSection.TextBig>
+                <HeroSection.Button>Zarejestruj Się</HeroSection.Button>
+                <HeroSection.Text>Przejdź rekrutację i ścigaj się u nas!</HeroSection.Text>
             </HeroSection.TextWrapper>
         </HeroSection>
     );

@@ -8,16 +8,16 @@ export function NavContainer({ children }) {
     return (
         <Nav>
             <NavWrapper>
-            <Nav.LinkWrapper>
-                <Nav.Link>link1</Nav.Link>
-                <Nav.Link>link2</Nav.Link>
-                <Nav.Link>link3</Nav.Link>
+            <Nav.LinkWrapper direction={"row-reverse"}>
+                <Nav.Link>Start</Nav.Link>
+                <Nav.Link>Wiadomości</Nav.Link>
+                <Nav.Link>Ligi</Nav.Link>
             </Nav.LinkWrapper>
             <Nav.Logo src={image}></Nav.Logo>
-            <Nav.LinkWrapper>
-                <Nav.Link>link4</Nav.Link>
-                <Nav.Link>link5</Nav.Link>
-                <Nav.Link>link6</Nav.Link>
+            <Nav.LinkWrapper direction={"row"}>
+                <Nav.Link>Archiwum</Nav.Link>
+                <Nav.Link>O nas</Nav.Link>
+                <Nav.Link>Discord</Nav.Link>
             </Nav.LinkWrapper>
             </NavWrapper>
         </Nav>

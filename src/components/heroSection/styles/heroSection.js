@@ -28,6 +28,8 @@ export const TextWrapper = styled.div`
 `;
 export const TextBig = styled.h1`
  font-size: 6rem;
+  max-width: 1400px;
+  margin:0 50px ;
 `;
 export const Text = styled.h2`
 
