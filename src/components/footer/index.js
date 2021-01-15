@@ -1,10 +1,16 @@
 import React from 'react';
-import { Container, Title } from './styles/footer';
+import { Container, Button, Text, Link } from './styles/footer';
 
-export default function footer({ children, ...restProps }) {
+export default function Footer({ children, ...restProps }) {
     return <Container {...restProps}>{children}</Container>;
 }
 
-footer.Title = function footerTitle({ children, ...restProps }) {
-    return <Title {...restProps}>{children}</Title>;
+Footer.Button = function FooterButton({ children, ...restProps }) {
+    return <Button {...restProps}>{children}</Button>;
+};
+Footer.Text = function FooterText({ children, ...restProps }) {
+    return <Text {...restProps}>{children}</Text>;
+};
+Footer.Link = function FooterLink({ children, ...restProps }) {
+    return <Link {...restProps}>{children}</Link>;
 };
