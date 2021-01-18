@@ -1,25 +1,24 @@
 import React from 'react';
 import { Nav } from '../components';
-import {NavWrapper} from "../components/nav/styles/nav";
 import image from "../utils/main-logo.png"
 //import * as ROUTES from '../constants/routes';
 
-export function NavContainer({ children }) {
+export function NavContainer() {
     return (
         <Nav>
-            <NavWrapper>
-            <Nav.LinkWrapper direction={"row-reverse"}>
-                <Nav.Link>Start</Nav.Link>
-                <Nav.Link>Wiadomości</Nav.Link>
-                <Nav.Link>Ligi</Nav.Link>
-            </Nav.LinkWrapper>
-            <Nav.Logo src={image}></Nav.Logo>
+            <Nav.NavWrapper>
             <Nav.LinkWrapper direction={"row"}>
-                <Nav.Link>Archiwum</Nav.Link>
-                <Nav.Link>O nas</Nav.Link>
-                <Nav.Link>Discord</Nav.Link>
+                <Nav.LinkA to="/F1League/">Start</Nav.LinkA>
+                <Nav.LinkA to="/F1League/Info">Wiadomości</Nav.LinkA>
+                <Nav.LinkA to="/F1League/Tabela">Liga</Nav.LinkA>
             </Nav.LinkWrapper>
-            </NavWrapper>
+                <Nav.LinkA to="/F1League/"><Nav.Logo src={image}></Nav.Logo></Nav.LinkA>
+            <Nav.LinkWrapper direction={"row"}>
+                <Nav.LinkA to="/F1League/Archiwum">Archiwum</Nav.LinkA>
+                <Nav.LinkA to="/F1League/O-Nas">O nas</Nav.LinkA>
+                <Nav.LinkA to="/F1League/Discord">Discord</Nav.LinkA>
+            </Nav.LinkWrapper>
+            </Nav.NavWrapper>
         </Nav>
     );
 }

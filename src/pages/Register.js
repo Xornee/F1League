@@ -1,14 +1,14 @@
 import React from 'react';
-import { HeroContainer } from '../container/heroSection';
 import { NavContainer } from "../container/nav";
 import { FooterContainer } from "../container/footer";
+import {FormContainer} from "../container/form";
 
 export default function Home() {
     return (
-    <>
-        <NavContainer />
-        <HeroContainer />
-        <FooterContainer />
-    </>
+        <>
+            <NavContainer />
+            <FormContainer />
+            <FooterContainer />
+        </>
     );
 }

@@ -11,8 +11,3 @@ export const Container = styled.div`
 export const Title = styled.h2`
    font-size: 2.5rem; 
 `;
-export const Iframe= styled.iframe`
-  height: 80vh;
-  width: 80vw;
-  margin-bottom: 50px;
-`;

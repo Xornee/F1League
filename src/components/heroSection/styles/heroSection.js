@@ -1,4 +1,5 @@
 import styled from 'styled-components/macro';
+import {Link} from 'react-router-dom';
 
 export const Container = styled.div`
   height: 75vh;
@@ -9,11 +10,10 @@ export const Container = styled.div`
   flex-wrap: wrap;
   background:
           linear-gradient(
-                  rgba(0, 0, 0, 0.4),
-                  rgba(0, 0, 0, 0.4)
+                  rgba(0, 0, 0, 0.5),
+                  rgba(0, 0, 0, 0.5)
           ),
-            /* bottom, image */
-          url('images/main-background.jpg');
+          url('/F1League/images/main-background.jpg');
   background-size: cover;
   background-position: center;
 `;
@@ -30,12 +30,21 @@ export const TextBig = styled.h1`
  font-size: 6rem;
   max-width: 1400px;
   margin:0 50px ;
+  font-family: 'Orbitron', sans-serif;
+  color: white;
+  @media screen and (max-width: 1050px){
+    font-size: 5rem;
+  }
 `;
 export const Text = styled.h2`
-
+  font-size: 2.2rem;
+  font-family: 'Orbitron', sans-serif;
+  color: white;
+  margin:0 50px ;
 `;
-export const Button = styled.button`
-  background-color: unset;
+export const Button = styled.a`
+  color: white;
+  text-decoration: none ;
   border: 2px solid white;
   padding: 25px 110px;
   font-size: 2rem;
