@@ -35,12 +35,24 @@ export const TextBig = styled.h1`
   @media screen and (max-width: 1050px){
     font-size: 5rem;
   }
+  @media screen and (max-width: 600px){
+    font-size: 3.2rem;
+  }
+  @media screen and (max-width: 420px){
+    font-size: 2rem ;
+  }
 `;
 export const Text = styled.h2`
   font-size: 2.2rem;
   font-family: 'Orbitron', sans-serif;
   color: white;
   margin:0 50px ;
+  @media screen and (max-width: 600px){
+    font-size: 1.5rem ;
+  }
+  @media screen and (max-width: 420px){
+    font-size: 1rem ;
+  }
 `;
 export const Button = styled.a`
   color: white;
@@ -52,7 +64,14 @@ export const Button = styled.a`
   cursor: pointer;
   transition: all ease-out 0.2s;
   :hover{
-    padding: 30px 115px;
+    transform: scale(1.1);
     font-size: 2.1rem;
+  }
+  @media screen and (max-width: 600px){
+    padding: 15px 60px;
+  }
+  @media screen and (max-width: 420px){
+    padding: 5px 30px;
+    font-size: 1.3rem;
   }
 `;

@@ -33,6 +33,12 @@ export const Button = styled.a`
     top: 0;
     
   }
+  @media screen and (max-width: 1150px){
+    margin:0px 10px;
+  }
+  @media screen and (max-width: 1150px){
+    display: none;
+  }
 
 `;
 export const Text = styled.div`
@@ -51,4 +57,9 @@ export const Wrapper = styled.div`
   display: flex;
   justify-content: ${({ direction }) => direction};
   align-items: center;
+  @media screen and (max-width: 1150px){
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+  }
 `;
