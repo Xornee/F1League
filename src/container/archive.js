@@ -1,11 +1,11 @@
 import React from 'react';
-import { Info } from '../components';
+import {Info, Table} from '../components';
 import * as ROUTES from '../constants/routes';
 
 export function ArchiveContainer({ children }) {
     return (
-        <Info>
-            <Info.Text>Archiwum</Info.Text>
-        </Info>
+        <Table>
+            <Table.Title>Archiwum</Table.Title>
+        </Table>
     );
 }

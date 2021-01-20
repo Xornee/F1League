@@ -8,6 +8,7 @@ export const Container = styled.div`
   justify-content: center;
   flex-direction: column;
   background-color: black;
+  position: relative;
 `;
 export const Button = styled.a`
   display: flex;

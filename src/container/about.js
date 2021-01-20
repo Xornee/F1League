@@ -1,11 +1,11 @@
 import React from 'react';
-import { Info } from '../components';
+import {Table} from '../components';
 import * as ROUTES from '../constants/routes';
 
 export function AboutContainer({ children }) {
     return (
-        <Info>
-            <Info.Text>O Nas</Info.Text>
-        </Info>
+        <Table>
+            <Table.Title>O Nas</Table.Title>
+        </Table>
     );
 }
