@@ -5,3 +5,4 @@ export { default as Table } from './table';
 export { default as Form } from './form';
 export { default as FormSuccess } from './formSuccess';
 export { default as Info } from './info';
+export { default as Article } from './article';

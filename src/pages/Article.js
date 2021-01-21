@@ -1,13 +1,13 @@
 import React from 'react';
 import { NavContainer } from "../container/nav";
 import { FooterContainer } from "../container/footer";
-import { ArticleContainer } from "../container/archive";
+import { ArticleContainer } from "../container/Article";
 
 export default function Archive() {
     return (
         <>
             <NavContainer />
-            <ArchiveContainer />
+            <ArticleContainer />
             <FooterContainer />
         </>
     );
