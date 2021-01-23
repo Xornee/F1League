@@ -6,7 +6,7 @@ import {
     Text,
     Paragraphs,
     Image,
-    Link,
+    LinkA,
 } from './styles/article';
 
 export default function Article({ children, ...restProps }) {
@@ -27,6 +27,6 @@ Article.Paragraphs  = function ArticleParagraphs ({ children, ...restProps }) {
 Article.Image  = function ArticleImage ({ children, ...restProps }) {
     return <Image  {...restProps}>{children}</Image>;
 };
-Article.Link  = function ArticleLink ({ children, ...restProps }) {
-    return <Link  {...restProps}>{children}</Link>;
+Article.LinkA  = function ArticleLinkA ({ children, ...restProps }) {
+    return <LinkA  {...restProps}>{children}</LinkA>;
 };

@@ -19,5 +19,5 @@ export const Paragraphs = styled.h3`
 `;
 export const Image = styled.img`
 `;
-export const Link = styled(Link)`
+export const LinkA = styled(Link)`
 `;

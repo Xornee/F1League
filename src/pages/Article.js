@@ -3,7 +3,7 @@ import { NavContainer } from "../container/nav";
 import { FooterContainer } from "../container/footer";
 import { ArticleContainer } from "../container/Article";
 
-export default function Archive() {
+export default function Article() {
     return (
         <>
             <NavContainer />

@@ -5,3 +5,4 @@ export { default as Discord} from './Discord';
 export { default as Archive} from './Archive';
 export { default as Info} from './Info';
 export { default as Register} from './Register';
+export { default as Article} from './Article';

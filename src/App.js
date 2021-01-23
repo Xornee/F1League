@@ -1,7 +1,7 @@
 import React from 'react'
 import { BrowserRouter as Router, Switch, Route } from 'react-router-dom';
 import * as ROUTES from "./constants/routes"
-import { HomePage, About, Table, Discord, Info, Archive, Register } from "./pages";
+import { HomePage, About, Table, Discord, Info, Archive, Register, Article } from "./pages";
 
 function App() {
     return (
@@ -27,6 +27,9 @@ function App() {
             </Route>
             <Route exact path="/F1League/Register">
                 <Register />
+            </Route>
+            <Route exact path="/F1League/Info/CardLink">
+                <Article />
             </Route>
         </Switch>
     </Router>
