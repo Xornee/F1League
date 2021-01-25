@@ -1,21 +1,21 @@
 {
   "files": {
-    "main.js": "/F1League/static/js/main.2a7fd9eb.chunk.js",
-    "main.js.map": "/F1League/static/js/main.2a7fd9eb.chunk.js.map",
+    "main.js": "/F1League/static/js/main.45e54087.chunk.js",
+    "main.js.map": "/F1League/static/js/main.45e54087.chunk.js.map",
     "runtime-main.js": "/F1League/static/js/runtime-main.aa096c6c.js",
     "runtime-main.js.map": "/F1League/static/js/runtime-main.aa096c6c.js.map",
     "static/css/2.679831fc.chunk.css": "/F1League/static/css/2.679831fc.chunk.css",
-    "static/js/2.a773d61a.chunk.js": "/F1League/static/js/2.a773d61a.chunk.js",
-    "static/js/2.a773d61a.chunk.js.map": "/F1League/static/js/2.a773d61a.chunk.js.map",
+    "static/js/2.76ddd9b3.chunk.js": "/F1League/static/js/2.76ddd9b3.chunk.js",
+    "static/js/2.76ddd9b3.chunk.js.map": "/F1League/static/js/2.76ddd9b3.chunk.js.map",
     "index.html": "/F1League/index.html",
     "static/css/2.679831fc.chunk.css.map": "/F1League/static/css/2.679831fc.chunk.css.map",
-    "static/js/2.a773d61a.chunk.js.LICENSE.txt": "/F1League/static/js/2.a773d61a.chunk.js.LICENSE.txt",
+    "static/js/2.76ddd9b3.chunk.js.LICENSE.txt": "/F1League/static/js/2.76ddd9b3.chunk.js.LICENSE.txt",
     "static/media/main-logo.76961866.png": "/F1League/static/media/main-logo.76961866.png"
   },
   "entrypoints": [
     "static/js/runtime-main.aa096c6c.js",
     "static/css/2.679831fc.chunk.css",
-    "static/js/2.a773d61a.chunk.js",
-    "static/js/main.2a7fd9eb.chunk.js"
+    "static/js/2.76ddd9b3.chunk.js",
+    "static/js/main.45e54087.chunk.js"
   ]
 }
