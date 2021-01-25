@@ -1,24 +1,38 @@
-import React from 'react';
+import React, { useState, useEffect } from 'react';
+import { FaBars, FaTimes } from "react-icons/all";
+import { IconContext } from "react-icons";
 import { Nav } from '../components';
+
 import image from "../utils/main-logo.png"
 //import * as ROUTES from '../constants/routes';
 
 export function NavContainer() {
+    const [click,setClick] = useState(false)
+
+    const handleClick = () => setClick(!click)
     return (
         <Nav>
-            <Nav.NavWrapper>
-            <Nav.LinkWrapper direction={"row"}>
-                <Nav.LinkA to="/F1League/">Start</Nav.LinkA>
-                <Nav.LinkA to="/F1League/Info">Wiadomości</Nav.LinkA>
-                <Nav.LinkA to="/F1League/Tabela">Liga</Nav.LinkA>
-            </Nav.LinkWrapper>
-                <Nav.LinkA to="/F1League/"><Nav.Logo src={image}></Nav.Logo></Nav.LinkA>
-            <Nav.LinkWrapper direction={"row"}>
-                <Nav.LinkA to="/F1League/Archiwum">Archiwum</Nav.LinkA>
-                <Nav.LinkA to="/F1League/O-Nas">O nas</Nav.LinkA>
-                <Nav.LinkA to="/F1League/Discord">Discord</Nav.LinkA>
-            </Nav.LinkWrapper>
+            <Nav.SmallNavButton onClick={handleClick}>
+                <IconContext.Provider value={{ size: "2rem"}}>
+                    {click ? <FaTimes /> : <FaBars />}
+                </IconContext.Provider>
+            </Nav.SmallNavButton>
+
+            <Nav.LinkA to="/F1League/"><Nav.Logo src={image}></Nav.Logo></Nav.LinkA>
+            <Nav.NavWrapper click={click}>
+                <Nav.LinkWrapper>
+                    <Nav.LinkA to="/F1League/" onClick={handleClick}>Start</Nav.LinkA>
+                    <Nav.LinkA to="/F1League/Info" onClick={handleClick}>Wiadomości</Nav.LinkA>
+                    <Nav.LinkA to="/F1League/Tabela" onClick={handleClick}>Liga</Nav.LinkA>
+                </Nav.LinkWrapper>
+
+                <Nav.LinkWrapper>
+                    <Nav.LinkA to="/F1League/Archiwum" onClick={handleClick}>Archiwum</Nav.LinkA>
+                    <Nav.LinkA to="/F1League/O-Nas" onClick={handleClick}>O nas</Nav.LinkA>
+                    <Nav.LinkA to="/F1League/Discord" onClick={handleClick}>Discord</Nav.LinkA>
+                </Nav.LinkWrapper>
             </Nav.NavWrapper>
+
         </Nav>
     );
 }

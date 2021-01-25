@@ -1,5 +1,5 @@
 import React from 'react';
-import { Container, Logo, LinkA, Menu, LinkWrapper, NavWrapper } from './styles/nav';
+import { Container, Logo, LinkA, Menu, LinkWrapper, NavWrapper, SmallNavButton } from './styles/nav';
 
 export default function Nav({ children, ...restProps }) {
     return <Container {...restProps}>{children}</Container>;
@@ -19,4 +19,7 @@ Nav.LinkWrapper = function NavLinkWrapper({ children, ...restProps }) {
 };
 Nav.NavWrapper = function NavNavWrapper({ children, ...restProps }) {
     return <NavWrapper {...restProps}>{children}</NavWrapper>;
+};
+Nav.SmallNavButton = function NavSmallNavButton({ children, ...restProps }) {
+    return <SmallNavButton {...restProps}>{children}</SmallNavButton>;
 };

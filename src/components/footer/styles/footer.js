@@ -9,6 +9,7 @@ export const Container = styled.div`
   flex-direction: column;
   background-color: black;
   position: relative;
+  z-index: -10;
 `;
 export const Button = styled.a`
   display: flex;
