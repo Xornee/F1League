@@ -10,10 +10,10 @@ export const Container = styled.div`
   z-index: 100;
 `;
 export const Logo = styled.img`
-  height: 12vh;
+  height: 10vh;
   position: absolute;
-  top: -1%;
-  left: calc(50% - 6vh);
+  top: 0;
+  left: calc(50% - 5vh);
 `;
 export const LinkA = styled(Link)`
   color: white;
@@ -74,3 +74,28 @@ export const SmallNavButton = styled.div`
     display: none;
   }
 `;
+export const DropElements = styled.div`
+  display: none;
+  justify-content: space-around;
+  align-items: center;
+  flex-direction: column;
+  height: 20vh;
+  max-height: 300px;
+  width: 150px;
+  position: absolute;
+  top: 10vh;
+  background-color: black;
+`;
+export const Dropdown = styled.div`
+  position: relative;
+  height: 10vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  &:hover {
+  }
+  &:hover ${DropElements} {
+    display: flex;
+  }
+}`;

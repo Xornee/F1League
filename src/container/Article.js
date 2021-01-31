@@ -1,8 +1,19 @@
-import React from 'react';
+import React, { useState, useEffect } from 'react';
 import {Article} from '../components';
-import * as ROUTES from '../constants/routes';
+import post from "../constants/info.json";
 
-export function ArticleContainer({ children }) {
+export function ArticleContainer(props) {
+
+    const [article, setarticle] = useState({
+        id: "" ,
+        blogCategory: "" ,
+        blogTitle : "" ,
+        postedOn: "" ,
+        author: "" ,
+        blogImage: "" ,
+        blogText: ""
+    });
+
     return (
         <>
         <Article>

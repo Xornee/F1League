@@ -1,10 +1,9 @@
 import React from 'react';
-import { Container, Logo, LinkA, Menu, LinkWrapper, NavWrapper, SmallNavButton } from './styles/nav';
+import { Container, Logo, LinkA, Menu, LinkWrapper, NavWrapper, SmallNavButton, Dropdown, DropElements } from './styles/nav';
 
 export default function Nav({ children, ...restProps }) {
     return <Container {...restProps}>{children}</Container>;
 }
-
 Nav.Logo = function NavLogo({ children, ...restProps }) {
     return <Logo {...restProps}>{children}</Logo>;
 };
@@ -22,4 +21,10 @@ Nav.NavWrapper = function NavNavWrapper({ children, ...restProps }) {
 };
 Nav.SmallNavButton = function NavSmallNavButton({ children, ...restProps }) {
     return <SmallNavButton {...restProps}>{children}</SmallNavButton>;
+};
+Nav.Dropdown = function NavDropdown({ children, ...restProps }) {
+    return <Dropdown {...restProps}>{children}</Dropdown>;
+};
+Nav.DropElements = function NavDropElements({ children, ...restProps }) {
+    return <DropElements {...restProps}>{children}</DropElements>;
 };

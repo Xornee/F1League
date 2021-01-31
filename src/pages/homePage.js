@@ -6,7 +6,7 @@ import { FooterContainer } from "../container/footer";
 export default function Home() {
     return (
     <>
-        <NavContainer />
+        <NavContainer scrollBar={"15px"}/>
         <HeroContainer />
         <FooterContainer />
     </>

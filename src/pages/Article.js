@@ -3,11 +3,11 @@ import { NavContainer } from "../container/nav";
 import { FooterContainer } from "../container/footer";
 import { ArticleContainer } from "../container/Article";
 
-export default function Article() {
+export default function Article(props) {
     return (
         <>
             <NavContainer />
-            <ArticleContainer />
+            <ArticleContainer {...props}/>
             <FooterContainer />
         </>
     );

@@ -1,0 +1,56 @@
+{
+  "data" : [
+    {
+      "id": 1,
+      "size": "Big",
+      "blogCategory": "ExampleCat1",
+      "blogTitle": "ExampleTitle1",
+      "link": "Examplelink1",
+      "postedOn": "25.01.2020",
+      "author": "Xornee",
+      "blogImage": "",
+      "blogText": "Example Text"
+    },
+    {
+      "id": 2,
+      "blogCategory": "ExampleCat1",
+      "blogTitle": "ExampleTitle2",
+      "link": "Examplelink2",
+      "postedOn": "25.01.2020",
+      "author": "Xornee",
+      "blogImage": "",
+      "blogText": "Example Text"
+    },
+    {
+      "id": 3,
+      "blogCategory": "ExampleCat2",
+      "blogTitle": "ExampleTitle3",
+      "link": "Examplelink3",
+      "postedOn": "25.01.2020",
+      "author": "Xornee",
+      "blogImage": "",
+      "blogText": "Example Text"
+    },
+    {
+      "id": 4,
+      "size": "Big",
+      "blogCategory": "ExampleCat2",
+      "blogTitle": "ExampleTitle4",
+      "link": "Examplelink4",
+      "postedOn": "25.01.2020",
+      "author": "Xornee",
+      "blogImage": "",
+      "blogText": "Example Text"
+    },
+    {
+      "id": 5,
+      "blogCategory": "ExampleCat1",
+      "blogTitle": "ExampleTitle5",
+      "link": "Examplelink5",
+      "postedOn": "25.01.2020",
+      "author": "Xornee",
+      "blogImage": "",
+      "blogText": "Example Text"
+    }
+  ]
+}

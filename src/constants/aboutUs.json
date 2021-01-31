@@ -1,0 +1,34 @@
+{
+  "data" : [
+    {
+      "id": 1,
+      "Title": "Example Title 1",
+      "Text": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Quisque consequat ultrices consectetur. Praesent non mattis dolor. Maecenas a lorem ut ligula mattis auctor. Quisque aliquet mollis ligula sit amet semper. Ut eleifend risus id laoreet facilisis. Sed eu ex eget massa viverra molestie. Curabitur ut lorem vel purus laoreet sollicitudin ut in augue.",
+      "direction": "row"
+    },
+    {
+      "id": 2,
+      "Title": "Example Title 2",
+      "Text": "Duis pellentesque diam eget leo vestibulum, et porttitor leo maximus. Aliquam nec aliquet velit. In molestie, urna et rutrum volutpat, massa felis pellentesque nibh, a aliquet turpis elit quis enim. Phasellus iaculis viverra nisl at auctor. Phasellus egestas scelerisque scelerisque. Duis porttitor urna sit amet faucibus egestas. Na",
+      "direction": "row-reverse"
+    },
+    {
+      "id": 3,
+      "Title": "Example Title 3",
+      "Text": "Pellentesque venenatis dui vel feugiat faucibus. Nunc vel diam ullamcorper, pretium ante in, dapibus velit. Pellentesque pellentesque nisi nec tortor ullamcorper, nec rhoncus ex facilisis. Phasellus at ipsum eget nulla dapibus ullamcorper. Ut at purus tempor, lobortis est vel, rutrum sem. Nulla porta quam et nisl cursus viverra. ",
+      "direction": "row"
+    },
+    {
+      "id": 4,
+      "Title": "Example Title 4",
+      "Text": " Duis commodo consectetur aliquet. Cras eget ex velit. Donec pellentesque fermentum consectetur. Aliquam erat volutpat. Sed faucibus ut tellus nec gravida. Nunc molestie vitae purus quis euismod. ",
+      "direction": "row-reverse"
+    },
+    {
+      "id": 5,
+      "Title": "Example Title 5",
+      "Text": "Praesent lacinia urna elit, a maximus risus feugiat vel. Mauris porttitor sem quis tellus pharetra, quis hendrerit felis feugiat. In eros eros, euismod semper lobortis non, varius vitae arcu. Praesent lorem sem, ultrices non velit eu, pharetra hendrerit tellus. Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia curae; Morbi at nulla vitae justo accumsan convallis eu ac mauris. Donec et pellentesque justo. Praesent lu",
+      "direction": "row"
+    }
+  ]
+}

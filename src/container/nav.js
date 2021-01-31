@@ -1,4 +1,4 @@
-import React, { useState, useEffect } from 'react';
+import React, { useState } from 'react';
 import { FaBars, FaTimes } from "react-icons/all";
 import { IconContext } from "react-icons";
 import { Nav } from '../components';
@@ -23,7 +23,13 @@ export function NavContainer() {
                 <Nav.LinkWrapper>
                     <Nav.LinkA to="/F1League/" onClick={handleClick}>Start</Nav.LinkA>
                     <Nav.LinkA to="/F1League/Info" onClick={handleClick}>Wiadomości</Nav.LinkA>
-                    <Nav.LinkA to="/F1League/Tabela" onClick={handleClick}>Liga</Nav.LinkA>
+                    <Nav.Dropdown>
+                        <Nav.LinkA to="/F1League/Tabela" onClick={handleClick}>Liga</Nav.LinkA>
+                        <Nav.DropElements>
+                            <Nav.LinkA to="/F1League/Tabela/Sezon1" onClick={handleClick}>Sezon1</Nav.LinkA>
+                            <Nav.LinkA to="/F1League/Tabela/Sezon2" onClick={handleClick}>Sezon2</Nav.LinkA>
+                        </Nav.DropElements>
+                    </Nav.Dropdown>
                 </Nav.LinkWrapper>
 
                 <Nav.LinkWrapper>
