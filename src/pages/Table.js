@@ -3,11 +3,11 @@ import { NavContainer } from "../container/nav";
 import { FooterContainer } from "../container/footer";
 import { TableContainer } from "../container/table";
 
-export default function Home() {
+export default function Table({src, title}) {
     return (
         <>
             <NavContainer />
-            <TableContainer />
+            <TableContainer src={src} title={title}/>
             <FooterContainer />
         </>
     );

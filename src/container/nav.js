@@ -24,10 +24,10 @@ export function NavContainer() {
                     <Nav.LinkA to="/F1League/" onClick={handleClick}>Start</Nav.LinkA>
                     <Nav.LinkA to="/F1League/Info" onClick={handleClick}>Wiadomości</Nav.LinkA>
                     <Nav.Dropdown>
-                        <Nav.LinkA to="/F1League/Tabela" onClick={handleClick}>Liga</Nav.LinkA>
+                        <Nav.LinkA to="/F1League/Sezon2" onClick={handleClick}>Liga</Nav.LinkA>
                         <Nav.DropElements>
-                            <Nav.LinkA to="/F1League/Tabela/Sezon1" onClick={handleClick}>Sezon1</Nav.LinkA>
-                            <Nav.LinkA to="/F1League/Tabela/Sezon2" onClick={handleClick}>Sezon2</Nav.LinkA>
+                            <Nav.LinkA to="/F1League/Sezon1" onClick={handleClick}>Sezon1</Nav.LinkA>
+                            <Nav.LinkA to="/F1League/Sezon2" onClick={handleClick}>Sezon2</Nav.LinkA>
                         </Nav.DropElements>
                     </Nav.Dropdown>
                 </Nav.LinkWrapper>

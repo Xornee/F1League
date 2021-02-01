@@ -12,11 +12,11 @@ function App() {
             <Route exact path="/F1League/O-Nas">
                 <About />
             </Route>
-            <Route exact path="/F1League/Tabela">
-                <Table />
+            <Route exact path="/F1League/Sezon1">
+                <Table src={"https://docs.google.com/spreadsheets/d/e/2PACX-1vTODv7igw2yonjxUur-kURwHxOldfVDRtM8H_2FGgN8i9C1Fgx_AyFQqCdR4LrSKqbTDbWRBd2uUv-i/pubhtml?widget=true&amp;headers=false%22%3E"} title={'Sezon1'} />
             </Route>
-            <Route exact path="/F1League/Tabela/:info" component={Table}>
-
+            <Route exact path="/F1League/Sezon2">
+                <Table src={"https://docs.google.com/spreadsheets/d/e/2PACX-1vR6SGAzApoFYWZean-KOq71EHbjwBD591v2RIU0kaxlt9UncGT3FOpLizzmQ65sgSKge7M8GDciV6dx/pubhtml?widget=true&amp;headers=false%22%3E"} title={'Sezon2'} />
             </Route>
             <Route exact path="/F1League/Panel-Glowny">
                 <Register />
