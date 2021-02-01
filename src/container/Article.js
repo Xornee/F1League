@@ -17,7 +17,8 @@ export function ArticleContainer(props) {
     return (
         <>
         <Article>
-            <h1>Czesc</h1>
+            <h1>Strona w trakcie tworzenia</h1>
+            <p>Dziekujemy za cierpliwosc</p>
         </Article>
         </>
     );

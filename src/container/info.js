@@ -34,16 +34,24 @@ export function InfoContainer() {
                                 </Info.MainCardLink>
                             </Info.MainCardWrapper>
                         );
-                    } else {
+                    }
+                })
+            }
+            <Info.CardWrapper>
+            {
+                posts.map(post => {
+                    if (post.size != "Big") {
                         return (
-                                <Info.CardLink to={`${url}/${post.link}`}>
-                                    <Info.ImageCard />
-                                    <Info.TextWrapper>Lorem ipsum dolor sit amet, consectetur adipisicing elit.</Info.TextWrapper>
-                                </Info.CardLink>
+                            <Info.CardLink to={`${url}/${post.link}`}>
+                                <Info.ImageCard />
+                                <Info.TextWrapper>Lorem ipsum dolor sit amet, consectetur adipisicing elit.</Info.TextWrapper>
+                            </Info.CardLink>
                         );
                     }
                 })
             }
+            </Info.CardWrapper>
+
 
 
 

@@ -15,8 +15,11 @@ function App() {
             <Route exact path="/F1League/Tabela">
                 <Table />
             </Route>
-            <Route exact path="/F1League/Discord">
-                <Table />
+            <Route exact path="/F1League/Tabela/:info" component={Table}>
+
+            </Route>
+            <Route exact path="/F1League/Panel-Glowny">
+                <Register />
             </Route>
             <Route exact path="/F1League/Info">
                 <Info />

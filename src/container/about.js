@@ -28,7 +28,7 @@ export function AboutContainer() {
                             <About.Text>{aboutJson.Text}</About.Text>
                         </About.TextWrapper>
 
-                        <About.Image src={aboutJson.Image}/>
+                        <About.Image/>
                     </About.CardWrapper>
                 )
             })

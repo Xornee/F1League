@@ -33,7 +33,7 @@ export const MainCardWrapper = styled.div`
 export const MainTextWrapper = styled.div`
   width: 40%;
   padding: 20px;
-  padding-top: 0px;
+  padding-top: 0;
 `;
 export const MainCardLink = styled(Link)`
   width: 100%;
@@ -72,7 +72,7 @@ export const SectionText = styled.h1`
 `;
 export const CardLink = styled(Link)`
   height: 400px;
-  width: 48%;
+  width: 28%;
   margin: 20px 0;
   border-bottom: solid 2px gray;
   color: black;

@@ -41,6 +41,7 @@ export const LinkWrapper = styled.div`
     margin: 0;
     height: 40vh;
     justify-content: space-around;
+    
   }
 `;
 export const NavWrapper = styled.div`
@@ -60,6 +61,7 @@ export const NavWrapper = styled.div`
     opacity: 1;
     transition: all 0.5s ease;
     background: black;
+    z-index: 100;
   }
 `;
 export const Menu = styled.div`

@@ -29,9 +29,11 @@ export const Text = styled.p`
   font-size: 1.6em;
 `;
 export const Image = styled.div`
+  
   height: 400px;
   width: 500px;
-  background-color: black;
+  background-image: url('/F1League/images/main-background.jpg');
+  background-size: cover;
 `;
 export const CardWrapper = styled.div`
   display: flex;
