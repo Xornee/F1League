@@ -72,7 +72,7 @@ export const SectionText = styled.h1`
 `;
 export const CardLink = styled(Link)`
   height: 400px;
-  width: 28%;
+  width: 40%;
   margin: 20px 0;
   border-bottom: solid 2px gray;
   color: black;

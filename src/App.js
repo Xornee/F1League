@@ -19,7 +19,7 @@ function App() {
                 <Table src={"https://docs.google.com/spreadsheets/d/e/2PACX-1vR6SGAzApoFYWZean-KOq71EHbjwBD591v2RIU0kaxlt9UncGT3FOpLizzmQ65sgSKge7M8GDciV6dx/pubhtml?widget=true&amp;headers=false%22%3E"} title={'Sezon2'} />
             </Route>
             <Route exact path="/F1League/Panel-Glowny">
-                <Register />
+                <Article />
             </Route>
             <Route exact path="/F1League/Info">
                 <Info />

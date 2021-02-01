@@ -20,5 +20,30 @@ export const Title = styled.h2`
   max-width: 600px;
   text-align: center;
 `;
-export const LinkWrapper = styled.div`
+export const LinkWrapper = styled.a`
+  margin: 50px;
+  margin-top: 0;
+  cursor: pointer;
+  text-decoration: none;
+  color: black;
+  transition: 0.2s ease all;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  flex-direction: column;
+  :hover{
+    transform: scale(1.05);
+  }
+`;
+export const Wrapper = styled.div`
+  display: flex;
+  margin: 100px;
+`;
+export const Image = styled.div`
+  margin-top: 50px;
+  height: 300px;
+  width: 400px;
+  background-image: url('/F1League/images/main-background.jpg');
+  background-size: cover;
+  background-position: center;
 `;
