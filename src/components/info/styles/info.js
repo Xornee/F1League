@@ -20,8 +20,9 @@ export const MainText = styled.h2`
   margin: 0;
 `;
 export const MainCardWrapper = styled.div`
-  height: 600px;
+  padding: 35px;
   width: 80%;
+  min-width: 600px;
   margin: 20px 0;
   border-bottom: solid 1px gray;
   margin-bottom: 50px;
@@ -34,12 +35,21 @@ export const MainTextWrapper = styled.div`
   width: 40%;
   padding: 20px;
   padding-top: 0;
+  @media screen and (max-width: 650px){
+    width: 70%;
+  }
 `;
 export const MainCardLink = styled(Link)`
   width: 100%;
   display: flex;
   text-decoration: none;
   color: black;
+  @media screen and (max-width: 650px){
+    flex-direction: column-reverse;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+  }
 `;
 export const MainImageCard = styled.div`
   height: 550px;
