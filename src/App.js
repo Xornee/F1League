@@ -27,6 +27,9 @@ function App() {
             <Route exact path="/F1League/Archiwum">
                 <Archive/>
             </Route>
+            <Route exact path="/F1League/Archiwum/:season">
+                <Archive season={''}/>
+            </Route>
             <Route exact path="/F1League/Register">
                 <Register />
             </Route>

@@ -4,7 +4,6 @@ import {Link} from "react-router-dom";
 export const Container = styled.div`
   min-height: 75vh;
   margin: 0 auto;
-  width: 80%;
   display: flex;
   flex-direction: column;
   align-items: center;
@@ -15,7 +14,7 @@ export const MainHeaderText = styled.h2`
   margin: 0;
 `;
 export const MainText = styled.h2`
-  font-size: 1.8rem;
+  font-size: 1.7rem;
   padding-top: 20px;
   margin: 0;
 `;
@@ -57,6 +56,9 @@ export const MainImageCard = styled.div`
   background-image: url('/F1League/images/main-background.jpg');
   background-position: center;
   background-size: cover;
+  @media screen and (max-width: 650px){
+    width: 80%;
+  }
 `;
 // Card Section
 export const CardWrapper = styled.div`
@@ -65,20 +67,48 @@ export const CardWrapper = styled.div`
   justify-content: space-between;
   width: 80%;
   margin-bottom: 50px;
+  @media screen and (max-width: 650px){
+    flex-direction: column-reverse;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+  }
 `;
 
 export const ImageCard = styled.div`
   height: 370px;
   width: 60%;
+  margin:0;
   background-image: url('/F1League/images/main-background.jpg');
   background-position: center;
   background-size: cover;
+  @media screen and (max-width: 650px){
+    width: 80%;
+    margin:50px 0;
+  }
 `;
 export const TextCard = styled.div`
 `;
 export const SectionText = styled.h1`
-  font-size: 2.2rem;
-  margin: 50px 0 70px 0;
+  font-size: 4.2rem;
+  height: 400px;
+  margin: 0px;
+  margin-bottom: 100px;
+  width: 100%;
+  text-align: center;
+  display: flex;
+  color: white;
+  align-items: center;
+  justify-content: center;
+  font-weight: normal;
+  background:
+          linear-gradient(
+                  rgba(0, 0, 0, 0.5),
+                  rgba(0, 0, 0, 0.5)
+          ),
+          url('/F1League/images/main-background.jpg');
+  background-size: cover;
+  background-position: center;
 `;
 export const CardLink = styled(Link)`
   height: 400px;
@@ -92,10 +122,20 @@ export const CardLink = styled(Link)`
   :hover{
     transform: scale(1.02);
   }
+  @media screen and (max-width: 650px){
+    flex-direction: column-reverse;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    width: 100%;
+  }
 `;
 export const TextWrapper = styled.div`
   margin-left: 20px;
   font-size: 1.8rem;
   width: 40%;
   font-weight: bold;
+  @media screen and (max-width: 650px){
+    width: 100%;
+  }
 `;

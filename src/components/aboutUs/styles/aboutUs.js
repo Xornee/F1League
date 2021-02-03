@@ -10,7 +10,7 @@ export const MainTitle = styled.h2`
 `;
 export const TitleText = styled.p`
   font-size: 2.3rem;
-  margin: 0;
+  margin:0 25px;
   max-width: 800px;
 `;
 export const TitleWrapper = styled.div`
