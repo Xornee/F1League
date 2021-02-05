@@ -21,8 +21,7 @@ export const MainText = styled.h2`
 export const MainCardWrapper = styled.div`
   padding: 35px;
   width: 80%;
-  min-width: 600px;
-  margin: 20px 0;
+  max-width: 1600px;
   border-bottom: solid 1px gray;
   margin-bottom: 50px;
   transition: 0.2s all ease-in-out;
@@ -66,6 +65,7 @@ export const CardWrapper = styled.div`
   flex-wrap: wrap;
   justify-content: space-between;
   width: 80%;
+  max-width: 1600px;
   margin-bottom: 50px;
   @media screen and (max-width: 650px){
     flex-direction: column-reverse;
@@ -92,7 +92,7 @@ export const TextCard = styled.div`
 export const SectionText = styled.h1`
   font-size: 4.2rem;
   height: 400px;
-  margin: 0px;
+  margin: 0;
   margin-bottom: 100px;
   width: 100%;
   text-align: center;
@@ -109,6 +109,9 @@ export const SectionText = styled.h1`
           url('/F1League/images/main-background.jpg');
   background-size: cover;
   background-position: center;
+  @media screen and (max-width: 400px){
+    font-size: 3.2rem;
+  }
 `;
 export const CardLink = styled(Link)`
   height: 400px;

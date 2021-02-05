@@ -1,9 +1,6 @@
 import React from 'react';
 import {
     Container,
-    MainTitle,
-    TitleText,
-    TitleWrapper,
     CardWrapper,
     TextWrapper,
     MainText,
@@ -14,15 +11,6 @@ import {
 export default function About({ children, ...restProps }) {
     return <Container {...restProps}>{children}</Container>;
 }
-About.MainTitle = function AboutMainTitle({ children, ...restProps }) {
-    return <MainTitle {...restProps}>{children}</MainTitle>;
-};
-About.TitleText = function AboutTitleText({ children, ...restProps }) {
-    return <TitleText {...restProps}>{children}</TitleText>;
-};
-About.TitleWrapper = function AboutTitleWrapper({ children, ...restProps }) {
-    return <TitleWrapper {...restProps}>{children}</TitleWrapper>;
-};
 About.CardWrapper = function AboutCardWrapper({ children, ...restProps }) {
     return <CardWrapper {...restProps}>{children}</CardWrapper>;
 };

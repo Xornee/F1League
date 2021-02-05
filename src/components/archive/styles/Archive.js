@@ -2,7 +2,6 @@ import styled from 'styled-components/macro';
 
 export const Container = styled.div`
   width: 100%;
-  height: 80vh;
   display: flex;
   align-items: center;
   margin: auto;
@@ -38,6 +37,8 @@ export const LinkWrapper = styled.a`
 export const Wrapper = styled.div`
   display: flex;
   margin: 100px;
+  flex-wrap: wrap;
+  justify-content: center;
 `;
 export const Image = styled.div`
   margin-top: 50px;

@@ -1,5 +1,5 @@
 import React, { useState, useEffect } from 'react';
-import { Info } from '../components';
+import {Info} from '../components';
 import {useRouteMatch} from "react-router-dom";
 import post from '../constants/info.json'
 
@@ -15,8 +15,6 @@ export function InfoContainer() {
 
     return (
         <Info>
-            <Info.SectionText>Wiadomości</Info.SectionText>
-
             {
                 posts.map(post => {
                     if (post.size === "Big") {
@@ -40,7 +38,7 @@ export function InfoContainer() {
             <Info.CardWrapper>
             {
                 posts.map(post => {
-                    if (post.size != "Big") {
+                    if (post.size !== "Big") {
                         return (
                             <Info.CardLink to={`${url}/${post.link}`}>
                                 <Info.ImageCard />

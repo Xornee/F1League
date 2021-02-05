@@ -35,7 +35,7 @@ export function NavContainer() {
                 <Nav.LinkWrapper>
                     <Nav.LinkA to="/F1League/Archiwum" onClick={handleClick}>Archiwum</Nav.LinkA>
                     <Nav.LinkA to="/F1League/O-Nas" onClick={handleClick}>O nas</Nav.LinkA>
-                    <Nav.LinkA to="/F1League/Panel-Glowny" onClick={handleClick}>Panel Główny</Nav.LinkA>
+                    <Nav.LinkA to="/F1League/Regulamin" onClick={handleClick}>Regulamin</Nav.LinkA>
                 </Nav.LinkWrapper>
             </Nav.NavWrapper>
 

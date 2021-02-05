@@ -1,5 +1,5 @@
 import React, { useState, useEffect } from 'react';
-import { About } from "../components";
+import { About, Header } from "../components";
 import aboutJson from '../constants/aboutUs.json';
 import * as ROUTES from '../constants/routes';
 
@@ -13,11 +13,6 @@ export function AboutContainer() {
     }, [about]);
     return (
         <About>
-
-            <About.TitleWrapper>
-                <About.MainTitle>O Nas</About.MainTitle>
-                <About.TitleText>Dowiedz się kim jestesmy, czym sie zajmujemy i czym dokladnie jest nasza liga</About.TitleText>
-            </About.TitleWrapper>
             {
             about.map(aboutJson => {
                 return (

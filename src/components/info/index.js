@@ -1,7 +1,6 @@
 import React from 'react';
 import {
     Container,
-    SectionText,
 
     MainHeaderText,
     MainText,
@@ -20,9 +19,6 @@ import {
 export default function Info({ children, ...restProps }) {
     return <Container {...restProps}>{children}</Container>;
 }
-Info.SectionText = function InfoSectionText({ children, ...restProps }) {
-    return <SectionText {...restProps}>{children}</SectionText>;
-};
 Info.MainHeaderText = function InfoMainHeaderText({ children, ...restProps }) {
     return <MainHeaderText {...restProps}>{children}</MainHeaderText>;
 };
