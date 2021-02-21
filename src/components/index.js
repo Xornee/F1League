@@ -9,3 +9,4 @@ export { default as Article } from './article';
 export { default as About } from './aboutUs'
 export { default as Archive} from './archive'
 export { default as Header } from './header'
+export { default as Rule } from './rules'

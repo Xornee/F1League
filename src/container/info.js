@@ -1,26 +1,20 @@
 import React, { useState, useEffect } from 'react';
 import {Info} from '../components';
 import {useRouteMatch} from "react-router-dom";
-import post from '../constants/info.json'
+import post from '../constants/info.js'
 
 export function InfoContainer() {
-    const [posts, setPosts] = useState([]);
-
-    useEffect(() => {
-        const posts = post.data;
-        setPosts(posts);
-    }, [posts]);
 
     let { path, url } = useRouteMatch();
 
     return (
         <Info>
             {
-                posts.map(post => {
+                post.map(post => {
                     if (post.size === "Big") {
                         return (
-                            <Info.MainCardWrapper>
-                                <Info.MainCardLink to={`${url}/${post.link}`}>
+                            <Info.MainCardWrapper key={post._id}>
+                                <Info.MainCardLink to={`${url}/${post._id}`}>
                                     <Info.MainImageCard/>
                                     <Info.MainTextWrapper>
                                         <Info.MainHeaderText>Example Article Text</Info.MainHeaderText>
@@ -37,10 +31,10 @@ export function InfoContainer() {
             }
             <Info.CardWrapper>
             {
-                posts.map(post => {
+                post.map(post => {
                     if (post.size !== "Big") {
                         return (
-                            <Info.CardLink to={`${url}/${post.link}`}>
+                            <Info.CardLink to={`${url}/${post._id}`}>
                                 <Info.ImageCard />
                                 <Info.TextWrapper>Lorem ipsum dolor sit amet, consectetur adipisicing elit.</Info.TextWrapper>
                             </Info.CardLink>

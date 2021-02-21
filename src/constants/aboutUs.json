@@ -2,32 +2,32 @@
   "data" : [
     {
       "id": 1,
-      "Title": "Example Title 1",
-      "Text": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Quisque consequat ultrices consectetur. Praesent non mattis dolor. Maecenas a lorem ut ligula mattis auctor. Quisque aliquet mollis ligula sit amet semper. Ut eleifend risus id laoreet facilisis. Sed eu ex eget massa viverra molestie. Curabitur ut lorem vel purus laoreet sollicitudin ut in augue.",
+      "Title": "Wstęp",
+      "Text": "Kim jesteśmy? Grupką niesamowicie pozytywnych ludzi z luźnym podejściem, którzy uwielbiają motosport, rywalizacje a przede wszystkim – dobrą zabawę. Jako IFL jesteśmy natomiast profesjonalną ligą e-sportową. Naszym głównym wyznacznikiem działań od zawsze była jakość. Uczymy się na błędach, wyciągamy wnioski, zmieniamy się – nieprzerwanie dążymy do tego, żeby stać się realną konkurencją dla największych lig F1 w Polsce.",
       "direction": "row"
     },
     {
       "id": 2,
-      "Title": "Example Title 2",
-      "Text": "Duis pellentesque diam eget leo vestibulum, et porttitor leo maximus. Aliquam nec aliquet velit. In molestie, urna et rutrum volutpat, massa felis pellentesque nibh, a aliquet turpis elit quis enim. Phasellus iaculis viverra nisl at auctor. Phasellus egestas scelerisque scelerisque. Duis porttitor urna sit amet faucibus egestas. Na",
+      "Title": "Krótko o naszych początkach",
+      "Text" : "Początek 2020 roku – niewielka grupka bliskich znajomych, zawziętych fanów F1 wpada na pomysł rozegrania turnieju w oficjalnej grze F1, edycji z 2019 roku.",
       "direction": "row-reverse"
     },
     {
       "id": 3,
-      "Title": "Example Title 3",
-      "Text": "Pellentesque venenatis dui vel feugiat faucibus. Nunc vel diam ullamcorper, pretium ante in, dapibus velit. Pellentesque pellentesque nisi nec tortor ullamcorper, nec rhoncus ex facilisis. Phasellus at ipsum eget nulla dapibus ullamcorper. Ut at purus tempor, lobortis est vel, rutrum sem. Nulla porta quam et nisl cursus viverra. ",
+      "Title": "Krótko o naszych początkach",
+      "Text": "Turniej cieszył się sporym zainteresowaniem, informacja między znajomymi rozchodzi się dość szybko, przybywa dużo osób chętnych wziąć udział w całym przedsięwzieciu.",
       "direction": "row"
     },
     {
       "id": 4,
-      "Title": "Example Title 4",
-      "Text": " Duis commodo consectetur aliquet. Cras eget ex velit. Donec pellentesque fermentum consectetur. Aliquam erat volutpat. Sed faucibus ut tellus nec gravida. Nunc molestie vitae purus quis euismod. ",
+      "Title": "Krótko o naszych początkach",
+      "Text": " Główni pomysłodawcy turnieju wychodzą naprzeciw sporemu zainteresowaniu, postanawiają założyć profesjonalną ligę rozgrywek. Informacja rozpowszechniona zostaje na forum ogólnopolskim. Nabór przynosi chętnych do jazdy z całego kraju. IFL zaczyna oficjalnie działać.",
       "direction": "row-reverse"
     },
     {
       "id": 5,
-      "Title": "Example Title 5",
-      "Text": "Praesent lacinia urna elit, a maximus risus feugiat vel. Mauris porttitor sem quis tellus pharetra, quis hendrerit felis feugiat. In eros eros, euismod semper lobortis non, varius vitae arcu. Praesent lorem sem, ultrices non velit eu, pharetra hendrerit tellus. Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia curae; Morbi at nulla vitae justo accumsan convallis eu ac mauris. Donec et pellentesque justo. Praesent lu",
+      "Title": "To, co chcemy wprowadzić w najbliższym czasie:",
+      "Text": "Świetne community oraz spore ambicje niejednokrotnie powodują sytuacje w których stwierdzić można, że nasze pomysły to przerost formy nad treścią. Niemniej jednak zbyt duża ilość pomysłów to zdecydowanie mniejszy problem od ich braku. Tak więc z początkiem trzeciego sezonu planujemy mocno poprawić naszą medialną twarz. Nowa strona internetowa (którą właśnie przeglądasz), usprawnienie jakości transmisji na żywo, imerysjne studio oraz grono komentatorów to tylko niektóre z aspektów jakie zostaną zmienione czy poprawione.  ",
       "direction": "row"
     }
   ]
