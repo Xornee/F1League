@@ -13,7 +13,7 @@ export const Container = styled.div`
                   rgba(0, 0, 0, 0.5),
                   rgba(0, 0, 0, 0.5)
           ),
-          url('/F1League/images/main-background.jpg');
+          url('/F1League/images/main.png');
   background-size: cover;
   background-position: center;
 `;

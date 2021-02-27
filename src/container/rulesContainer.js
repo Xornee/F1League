@@ -3,7 +3,6 @@ import {Rule} from '../components';
 import * as ROUTES from '../constants/routes';
 import TermOfUse from "../constants/regulamin";
 import {render} from "@testing-library/react";
-import {RuleList} from "./ruleList";
 
 export function RulesContainer() {
 

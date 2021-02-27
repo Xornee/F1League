@@ -44,7 +44,7 @@ export const Image = styled.div`
   margin-top: 50px;
   height: 300px;
   width: 400px;
-  background-image: url('/F1League/images/main-background.jpg');
+  background-image: url(${({ src }) => src});
   background-size: cover;
   background-position: center;
 `;
