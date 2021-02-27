@@ -7,7 +7,7 @@ function App() {
     return (
     <Router>
         <Switch>
-            <Route exact path="/F1League">
+            <Route exact path="/">
                 <HomePage />
             </Route>
             <Route exact path="/F1League/O-Nas">
