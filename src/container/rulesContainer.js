@@ -1,8 +1,6 @@
-import React, { useState, useEffect } from 'react';
+import React from 'react';
 import {Rule} from '../components';
-import * as ROUTES from '../constants/routes';
 import TermOfUse from "../constants/regulamin";
-import {render} from "@testing-library/react";
 
 export function RulesContainer() {
 

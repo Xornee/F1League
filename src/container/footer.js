@@ -1,8 +1,7 @@
 import React from 'react';
 import { Footer } from '../components';
-import * as ROUTES from '../constants/routes';
 
-export function FooterContainer({ children }) {
+export function FooterContainer() {
     return (
         <Footer>
             <Footer.Wrapper direction={'space-between'}>

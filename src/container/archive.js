@@ -1,8 +1,7 @@
 import React from 'react';
 import { Archive } from '../components';
-import * as ROUTES from '../constants/routes';
 
-export function ArchiveContainer({ children }) {
+export function ArchiveContainer() {
     return (
         <Archive>
             <Archive.Text>Wszystkie zapisy znajduja sie na naszym kanale Youtube</Archive.Text>

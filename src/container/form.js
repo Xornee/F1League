@@ -1,6 +1,5 @@
 import React from 'react';
 import { Form, FormSuccess } from '../components';
-import * as ROUTES from '../constants/routes';
 
 export function FormContainer() {
     return (

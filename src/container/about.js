@@ -1,7 +1,6 @@
 import React, { useState, useEffect } from 'react';
-import { About, Header } from "../components";
+import { About } from "../components";
 import aboutJson from '../constants/aboutUs.json';
-import * as ROUTES from '../constants/routes';
 
 export function AboutContainer() {
 
