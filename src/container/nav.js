@@ -4,7 +4,6 @@ import { IconContext } from "react-icons";
 import { Nav } from '../components';
 
 import image from "../utils/main-logo.png"
-//import * as ROUTES from '../constants/routes';
 
 export function NavContainer() {
     const [click,setClick] = useState(false)
