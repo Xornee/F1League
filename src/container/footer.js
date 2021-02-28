@@ -23,7 +23,7 @@ export function FooterContainer() {
 
             </Footer.Wrapper>
             <Footer.Wrapper direction={'center'}>
-                <Footer.Text>2021 Stworzona przez <Footer.Link href={'www.linkedin.com/in/SzymonMytych880'} target={'_blank'}>Szymon Mytych</Footer.Link></Footer.Text>
+                <Footer.Text>2021 Stworzona przez <Footer.Link href={'https://www.linkedin.com/in/SzymonMytych880'} target={'_blank'}>Szymon Mytych</Footer.Link></Footer.Text>
             </Footer.Wrapper>
         </Footer>
     );
