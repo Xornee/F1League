@@ -13,10 +13,12 @@ export const Text = styled.p`
   font-size: 1.7em;
 `;
 export const Image = styled.div`
-  height: 400px;
-  width: 500px;
-  background-image: url('/F1League/images/main-background.jpg');
-  background-size: cover;
+  height: 500px;
+  width: 600px;
+  background-image: url(${({ image }) => image});
+  background-size: contain;
+  background-position: center;
+  background-repeat: no-repeat;
 `;
 export const CardWrapper = styled.div`
   display: flex;

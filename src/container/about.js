@@ -22,9 +22,9 @@ export function AboutContainer() {
                             <About.Text>{aboutJson.Text}</About.Text>
                         </About.TextWrapper>
 
-                        <About.Image/>
+                        <About.Image image={aboutJson.Image}/>
                     </About.CardWrapper>
-                )
+                );
             })
             }
 

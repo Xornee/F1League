@@ -10,31 +10,31 @@ function App() {
             <Route exact path="/">
                 <HomePage />
             </Route>
-            <Route exact path="/F1League/O-Nas">
+            <Route exact path="/O-Nas">
                 <About />
             </Route>
-            <Route exact path="/F1League/Sezon1">
+            <Route exact path="/Sezon1">
                 <Table src={"https://docs.google.com/spreadsheets/d/e/2PACX-1vTODv7igw2yonjxUur-kURwHxOldfVDRtM8H_2FGgN8i9C1Fgx_AyFQqCdR4LrSKqbTDbWRBd2uUv-i/pubhtml?widget=true&amp;headers=false%22%3E"} title={'Sezon1'} />
             </Route>
-            <Route exact path="/F1League/Sezon2">
+            <Route exact path="/Sezon2">
                 <Table src={"https://docs.google.com/spreadsheets/d/e/2PACX-1vR6SGAzApoFYWZean-KOq71EHbjwBD591v2RIU0kaxlt9UncGT3FOpLizzmQ65sgSKge7M8GDciV6dx/pubhtml?widget=true&amp;headers=false%22%3E"} title={'Sezon2'} />
             </Route>
-            <Route exact path="/F1League/Regulamin">
+            <Route exact path="/Regulamin">
                 <ThermsOfUse />
             </Route>
-            <Route exact path="/F1League/Info">
+            <Route exact path="/Info">
                 <Info />
             </Route>
-            <Route exact path="/F1League/Archiwum">
+            <Route exact path="/Archiwum">
                 <Archive/>
             </Route>
-            <Route exact path="/F1League/Archiwum/:season">
+            <Route exact path="/Archiwum/:season">
                 <Archive season={''}/>
             </Route>
-            <Route exact path="/F1League/Register">
+            <Route exact path="/Register">
                 <Register />
             </Route>
-            <Route exact path="/F1League/Info/:id" component={Article}>
+            <Route exact path="/Info/:id" component={Article}>
             </Route>
         </Switch>
     </Router>

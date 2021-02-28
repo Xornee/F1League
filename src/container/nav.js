@@ -17,24 +17,24 @@ export function NavContainer() {
                 </IconContext.Provider>
             </Nav.SmallNavButton>
 
-            <Nav.LinkA to="/F1League/"><Nav.Logo src={image}></Nav.Logo></Nav.LinkA>
+            <Nav.LinkA to="/"><Nav.Logo src={image} /></Nav.LinkA>
             <Nav.NavWrapper click={click}>
                 <Nav.LinkWrapper>
-                    <Nav.LinkA to="/F1League/" onClick={handleClick}>Start</Nav.LinkA>
-                    <Nav.LinkA to="/F1League/Info" onClick={handleClick}>Wiadomości</Nav.LinkA>
+                    <Nav.LinkA to="/" onClick={handleClick}>Start</Nav.LinkA>
+                    <Nav.LinkA to="/Info" onClick={handleClick}>Wiadomości</Nav.LinkA>
                     <Nav.Dropdown>
-                        <Nav.LinkA to="/F1League/Sezon2" onClick={handleClick}>Liga</Nav.LinkA>
+                        <Nav.LinkA to="/Sezon2" onClick={handleClick}>Liga</Nav.LinkA>
                         <Nav.DropElements>
-                            <Nav.LinkA to="/F1League/Sezon1" onClick={handleClick}>Sezon1</Nav.LinkA>
-                            <Nav.LinkA to="/F1League/Sezon2" onClick={handleClick}>Sezon2</Nav.LinkA>
+                            <Nav.LinkA to="/Sezon1" onClick={handleClick}>Sezon1</Nav.LinkA>
+                            <Nav.LinkA to="/Sezon2" onClick={handleClick}>Sezon2</Nav.LinkA>
                         </Nav.DropElements>
                     </Nav.Dropdown>
                 </Nav.LinkWrapper>
 
                 <Nav.LinkWrapper>
-                    <Nav.LinkA to="/F1League/Archiwum" onClick={handleClick}>Archiwum</Nav.LinkA>
-                    <Nav.LinkA to="/F1League/O-Nas" onClick={handleClick}>O nas</Nav.LinkA>
-                    <Nav.LinkA to="/F1League/Regulamin" onClick={handleClick}>Regulamin</Nav.LinkA>
+                    <Nav.LinkA to="/Archiwum" onClick={handleClick}>Archiwum</Nav.LinkA>
+                    <Nav.LinkA to="/O-Nas" onClick={handleClick}>O nas</Nav.LinkA>
+                    <Nav.LinkA to="/Regulamin" onClick={handleClick}>Regulamin</Nav.LinkA>
                 </Nav.LinkWrapper>
             </Nav.NavWrapper>
 

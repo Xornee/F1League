@@ -8,7 +8,7 @@ export default function ThermsOfUse() {
     return (
         <>
             <NavContainer />
-            <HeaderContainer Title={'Regulamin'} Text={'Dowiedz się kim jestesmy, czym sie zajmujemy i czym dokladnie jest nasza liga'}/>
+            <HeaderContainer Title={'Regulamin'} Text={'Regulamin naszej ligi. Każdy zawodnik musi go znać'}/>
             <RulesContainer />
             <FooterContainer />
         </>

@@ -8,7 +8,7 @@ export default function Table({src, title}) {
     return (
         <>
             <NavContainer />
-            <HeaderContainer Title={title} Text={'Dowiedz się kim jestesmy, czym sie zajmujemy i czym dokladnie jest nasza liga'}/>
+            <HeaderContainer Title={title} Text={'Zobacz Aktualne i archiwalne wyniki z ostatnich sezonów'}/>
             <TableContainer src={src} title={'Tabela'}/>
             <FooterContainer />
         </>

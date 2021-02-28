@@ -10,7 +10,7 @@ export const Container = styled.div`
   background-color: black;
   position: relative;
 `;
-export const Button = styled.a`
+export const ButtonWrapper = styled.a`
   display: flex;
   justify-content: center;
   align-items: center;
@@ -20,36 +20,39 @@ export const Button = styled.a`
   width: 200px;
   font-size: 1.4rem;
   text-align: center;
-  padding-left: 60px;
-  margin:0px 50px;
   color: white;
   position: relative;
-  ::before{
-    content: '';
-    background-color: ${({ bgColor }) => bgColor};
-    height: 60px;
-    width: 60px;
-    position: absolute;
-    left: 0;
-    top: 0;
-    
+  padding-left: 60px;
   }
   @media screen and (max-width: 1150px){
-    margin:0px 10px;
+    margin:0 10px;
   }
   @media screen and (max-width: 1150px){
     display: none;
   }
 
 `;
+export const ButtonIcon = styled.img`
+  height: ${({ size }) => size};
+  width: ${({ size }) => size};
+  position: absolute;
+  left: 0;
+  padding: calc((60px - ${({ size }) => size})/2);
+  background-color: ${({ bgColor }) => bgColor};
+`;
+export const Button = styled.div`
+`;
 export const Text = styled.div`
     position: absolute;
     bottom: 1%;
     color: white;
-;
-
 `;
 export const Link = styled.a`
+  color: white;
+  transition: ease-in-out 0.3s all;
+  :hover{
+    font-size: 1.1rem;
+  }
 
 `;
 export const Wrapper = styled.div`

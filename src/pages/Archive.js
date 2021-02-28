@@ -8,7 +8,7 @@ export default function Archive() {
     return (
         <>
             <NavContainer />
-            <HeaderContainer Title={'Archiwum'} Text={'Dowiedz się kim jestesmy, czym sie zajmujemy i czym dokladnie jest nasza liga'}/>
+            <HeaderContainer Title={'Archiwum'} Text={'Obejrzyj zapisy rozgrywek naszej ligi'}/>
             <ArchiveContainer />
             <FooterContainer />
         </>

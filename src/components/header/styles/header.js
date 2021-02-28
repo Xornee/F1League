@@ -27,7 +27,7 @@ export const TitleWrapper = styled.div`
                   rgba(0, 0, 0, 0.5),
                   rgba(0, 0, 0, 0.5)
           ),
-          url('/F1League/images/main.png');
+          url(${({ image }) => image});
   background-size: cover;
   background-position: center;
   color: white;

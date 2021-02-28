@@ -2,7 +2,7 @@ import styled from 'styled-components';
 import {Link} from "react-router-dom";
 
 export const Container = styled.div`
-  min-height: 75vh;
+  min-height: 45vh;
   margin: 0 auto;
   display: flex;
   flex-direction: column;
@@ -52,7 +52,7 @@ export const MainCardLink = styled(Link)`
 export const MainImageCard = styled.div`
   height: 550px;
   width: 60%;
-  background-image: url('/F1League/images/main-background.jpg');
+  background-image: url('');
   background-position: center;
   background-size: cover;
   @media screen and (max-width: 650px){
@@ -79,7 +79,7 @@ export const ImageCard = styled.div`
   height: 370px;
   width: 60%;
   margin:0;
-  background-image: url('/F1League/images/main-background.jpg');
+  background-image: url('');
   background-position: center;
   background-size: cover;
   @media screen and (max-width: 650px){
@@ -106,7 +106,7 @@ export const SectionText = styled.h1`
                   rgba(0, 0, 0, 0.5),
                   rgba(0, 0, 0, 0.5)
           ),
-          url('/F1League/images/main-background.jpg');
+          url('');
   background-size: cover;
   background-position: center;
   @media screen and (max-width: 400px){

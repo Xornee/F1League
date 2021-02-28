@@ -8,8 +8,8 @@ export default function Home() {
     return (
         <>
             <NavContainer />
-            <HeaderContainer Title={'Wiadomości'} Text={'Dowiedz się kim jestesmy, czym sie zajmujemy i czym dokladnie jest nasza liga'}/>
-            <InfoContainer />
+            <HeaderContainer Title={'Wiadomości'} Text={'Najnowsze wiadomości ze świata naszej Ligi'}/>
+            <InfoContainer Message={true}/>
             <FooterContainer />
         </>
     );
