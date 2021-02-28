@@ -6,8 +6,8 @@ export function FooterContainer() {
         <Footer>
             <Footer.Wrapper direction={'space-between'}>
 
-                <Footer.ButtonWrapper color={"#3b5998"}  href={'https://www.facebook.com/IF1eL/'} target={'_blank'}>
-                    <Footer.ButtonIcon src={'./images/discord.png'} bgColor={"#0e1f56"} size={'60px'}/>
+                <Footer.ButtonWrapper color={"#19171C"}  href={'https://www.facebook.com/IF1eL/'} target={'_blank'}>
+                    <Footer.ButtonIcon src={'./images/facebook.svg'} bgColor={"#3A5A98"} size={'60px'}/>
                     <Footer.Button>Facebook</Footer.Button>
                 </Footer.ButtonWrapper>
 
@@ -16,7 +16,7 @@ export function FooterContainer() {
                     <Footer.Button>Twitch</Footer.Button>
                 </Footer.ButtonWrapper>
 
-                <Footer.ButtonWrapper color={"#2C2F33"}  href={'https://discord.gg/MamdhVNJT6'} target={'_blank'}>
+                <Footer.ButtonWrapper color={"#19171C"}  href={'https://discord.gg/MamdhVNJT6'} target={'_blank'}>
                     <Footer.ButtonIcon src={'./images/discord.png'} bgColor={"#827DDC"} size={'60px'}/>
                     <Footer.Button>Discord</Footer.Button>
                 </Footer.ButtonWrapper>
