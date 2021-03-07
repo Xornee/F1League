@@ -11,7 +11,7 @@ export function FooterContainer() {
                     <Footer.Button>Facebook</Footer.Button>
                 </Footer.ButtonWrapper>
 
-                <Footer.ButtonWrapper color={"#19171C"}  href={'https://www.youtube.com/channel/UC0GPwkUNhswK4SbV7hAZf6w'} target={'_blank'}>
+                <Footer.ButtonWrapper color={"#19171C"}  href={'https://www.twitch.tv/internationalf1league'} target={'_blank'}>
                     <Footer.ButtonIcon src={'./images/TwitchGlitchWhite.svg'} bgColor={"#6441A4"} size={'40px'}/>
                     <Footer.Button>Twitch</Footer.Button>
                 </Footer.ButtonWrapper>
