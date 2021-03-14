@@ -23,10 +23,11 @@ export function NavContainer() {
                     <Nav.LinkA to="/" onClick={handleClick}>Start</Nav.LinkA>
                     <Nav.LinkA to="/Info" onClick={handleClick}>Wiadomości</Nav.LinkA>
                     <Nav.Dropdown>
-                        <Nav.LinkA to="/Sezon2" onClick={handleClick}>Liga</Nav.LinkA>
+                        <Nav.LinkA to="/Sezon3" onClick={handleClick}>Liga</Nav.LinkA>
                         <Nav.DropElements>
                             <Nav.LinkA to="/Sezon1" onClick={handleClick}>Sezon1</Nav.LinkA>
                             <Nav.LinkA to="/Sezon2" onClick={handleClick}>Sezon2</Nav.LinkA>
+                            <Nav.LinkA to="/Sezon3" onClick={handleClick}>Sezon3</Nav.LinkA>
                         </Nav.DropElements>
                     </Nav.Dropdown>
                 </Nav.LinkWrapper>

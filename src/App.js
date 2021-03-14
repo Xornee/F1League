@@ -19,6 +19,9 @@ function App() {
             <Route exact path="/Sezon2">
                 <Table src={"https://docs.google.com/spreadsheets/d/e/2PACX-1vR6SGAzApoFYWZean-KOq71EHbjwBD591v2RIU0kaxlt9UncGT3FOpLizzmQ65sgSKge7M8GDciV6dx/pubhtml?widget=true&amp;headers=false%22%3E"} title={'Sezon2'} />
             </Route>
+            <Route exact path="/Sezon3">
+                <Table src={"https://docs.google.com/spreadsheets/d/e/2PACX-1vRj3kMJFlhjFH6aO7l7KDIQ7Idad3Zt6t_RNJ6GiLq3sFY5P-bgEICRO4eQ1BrkhQYUhP-hmE8_B7GG/pubhtml?widget=true&amp;headers=false%22%3E"} title={'Sezon3'} />
+            </Route>
             <Route exact path="/Regulamin">
                 <ThermsOfUse />
             </Route>
