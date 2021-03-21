@@ -22,7 +22,7 @@ export function InfoContainer({Message}) {
                             return (
                                 <Info.MainCardWrapper key={post._id}>
                                     <Info.MainCardLink to={`${url}/${post._id}`}>
-                                        <Info.MainImageCard/>
+                                        <Info.MainImageCard image={'/images/main.png'}/>
                                         <Info.MainTextWrapper>
                                             <Info.MainHeaderText>Example Article Text</Info.MainHeaderText>
                                             <Info.MainText>Lorem ipsum dolor sit amet, consectetur adipisicing elit.
@@ -42,7 +42,7 @@ export function InfoContainer({Message}) {
                             if (post.size !== "Big") {
                                 return (
                                     <Info.CardLink to={`${url}/${post._id}`}>
-                                        <Info.ImageCard/>
+                                        <Info.ImageCard image={'/images/main.png'}/>
                                         <Info.TextWrapper>Lorem ipsum dolor sit amet, consectetur adipisicing
                                             elit.</Info.TextWrapper>
                                     </Info.CardLink>

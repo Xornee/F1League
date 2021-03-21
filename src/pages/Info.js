@@ -9,7 +9,7 @@ export default function Home() {
         <>
             <NavContainer />
             <HeaderContainer Title={'Wiadomości'} Text={'Najnowsze wiadomości ze świata naszej Ligi'}/>
-            <InfoContainer Message={true}/>
+            <InfoContainer Message={false}/>
             <FooterContainer />
         </>
     );

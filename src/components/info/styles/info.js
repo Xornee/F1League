@@ -52,7 +52,7 @@ export const MainCardLink = styled(Link)`
 export const MainImageCard = styled.div`
   height: 550px;
   width: 60%;
-  background-image: url('');
+  background-image: url(${({ image }) => image});
   background-position: center;
   background-size: cover;
   @media screen and (max-width: 650px){
