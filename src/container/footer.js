@@ -21,6 +21,16 @@ export function FooterContainer() {
                     <Footer.Button>Discord</Footer.Button>
                 </Footer.ButtonWrapper>
 
+                <Footer.ButtonWrapper color={"#19171C"}  href={'https://www.facebook.com/IF1eL/'} target={'_blank'}>
+                    <Footer.ButtonIcon src={'./images/facebook.svg'} bgColor={"#3A5A98"} size={'60px'}/>
+                    <Footer.Button>Instagram</Footer.Button>
+                </Footer.ButtonWrapper>
+
+                <Footer.ButtonWrapper color={"#19171C"}  href={'https://www.facebook.com/IF1eL/'} target={'_blank'}>
+                    <Footer.ButtonIcon src={'./images/facebook.svg'} bgColor={"#3A5A98"} size={'60px'}/>
+                    <Footer.Button>Youtube</Footer.Button>
+                </Footer.ButtonWrapper>
+
             </Footer.Wrapper>
             <Footer.Wrapper direction={'center'}>
                 <Footer.Text>2021 Stworzona przez <Footer.Link href={'https://www.linkedin.com/in/SzymonMytych880'} target={'_blank'}>Szymon Mytych</Footer.Link></Footer.Text>

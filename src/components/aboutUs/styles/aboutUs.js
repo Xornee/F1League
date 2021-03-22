@@ -26,7 +26,7 @@ export const CardWrapper = styled.div`
   justify-content: space-between;
   max-width: 1300px;
   margin: 100px auto;
-  padding: 50px;
+  padding: 5%;
   align-items: center;
   flex-direction: ${({ direction }) => direction};
   @media screen and (max-width: 1110px){
@@ -39,8 +39,8 @@ export const TextWrapper = styled.div`
   @media screen and (max-width: 1110px){
     width: 80%;
     text-align: center;
-  }  @media screen and (max-width: 1110px){
-    width: 80%;
+  }  @media screen and (max-width: 700px){
+    width: 95%;
     text-align: center;
   }
 `;

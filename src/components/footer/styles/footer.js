@@ -24,8 +24,8 @@ export const ButtonWrapper = styled.a`
   position: relative;
   padding-left: 60px;
   }
-  @media screen and (max-width: 1150px){
-    margin:0 10px;
+  @media screen and (max-width: 1500px){
+    width: 150px;
   }
   @media screen and (max-width: 1150px){
     display: none;
@@ -56,11 +56,13 @@ export const Link = styled.a`
 
 `;
 export const Wrapper = styled.div`
-  width: 100%;
-  max-width: 1350px;
+  width: 90%;
   display: flex;
   justify-content: ${({ direction }) => direction};
   align-items: center;
+  @media screen and (max-width: 1500px){
+    width: 95%;
+  }
   @media screen and (max-width: 1150px){
     flex-wrap: wrap;
     justify-content: center;
