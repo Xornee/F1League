@@ -55,6 +55,8 @@ export const MainImageCard = styled.div`
   background-image: url(${({ image }) => image});
   background-position: center;
   background-size: cover;
+  -webkit-box-shadow: 0px 0px 18px -5px #000000;
+  box-shadow: 0px 0px 18px -5px #000000;
   @media screen and (max-width: 650px){
     width: 80%;
   }
