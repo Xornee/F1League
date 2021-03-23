@@ -22,12 +22,12 @@ export function FooterContainer() {
                 </Footer.ButtonWrapper>
 
                 <Footer.ButtonWrapper color={"#19171C"}  href={'https://www.facebook.com/IF1eL/'} target={'_blank'}>
-                    <Footer.ButtonIcon src={'./images/facebook.svg'} bgColor={"#3A5A98"} size={'60px'}/>
+                    <Footer.ButtonIcon src={'./images/instagram.jpg'} bgColor={"#3A5A98"} size={'60px'}/>
                     <Footer.Button>Instagram</Footer.Button>
                 </Footer.ButtonWrapper>
 
-                <Footer.ButtonWrapper color={"#19171C"}  href={'https://www.facebook.com/IF1eL/'} target={'_blank'}>
-                    <Footer.ButtonIcon src={'./images/facebook.svg'} bgColor={"#3A5A98"} size={'60px'}/>
+                <Footer.ButtonWrapper color={"#19171C"}  href={'https://www.youtube.com/channel/UC0GPwkUNhswK4SbV7hAZf6w'} target={'_blank'}>
+                    <Footer.ButtonIcon src={'./images/youtube_social_square_white.png'} bgColor={"#3A5A98"} size={'60px'}/>
                     <Footer.Button>Youtube</Footer.Button>
                 </Footer.ButtonWrapper>
 
