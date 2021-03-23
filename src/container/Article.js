@@ -10,15 +10,20 @@ export function ArticleContainer({ match }) {
     return (
         <>
         <Article>
-            <HeaderContainer Title={product.blogTitle} Text={'opis artykulu'}/>
-
-            <Article.InfoWrapper>
-                <Article.InfoA>Autor : {product.author}</Article.InfoA>
-                <Article.InfoA>Kategoria : {product.blogCategory}</Article.InfoA>
-                <Article.InfoA>Data : {product.postedOn}</Article.InfoA>
-            </Article.InfoWrapper>
             <Article.MainTitle>{product.blogTitle}</Article.MainTitle>
-            <Article.Text>{product.blogText}</Article.Text>
+            {
+                product.blogText.map((paragraph) => {
+                    return(
+                        <Article.Text>{paragraph}</Article.Text>
+                    )
+                })
+            }
+            <Article.Image src={product.blogImage}></Article.Image>
+            <Article.InfoWrapper>
+                <Article.InfoA> Autor : {product.author}</Article.InfoA>
+                <Article.InfoA> Kategoria : {product.blogCategory}</Article.InfoA>
+                <Article.InfoA> Data : {product.postedOn}</Article.InfoA>
+            </Article.InfoWrapper>
         </Article>
         </>
     );

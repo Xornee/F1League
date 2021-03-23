@@ -24,11 +24,8 @@ export function InfoContainer({Message}) {
                                     <Info.MainCardLink to={`${url}/${post._id}`}>
                                         <Info.MainImageCard image={'/images/main.png'}/>
                                         <Info.MainTextWrapper>
-                                            <Info.MainHeaderText>Example Article Text</Info.MainHeaderText>
-                                            <Info.MainText>Lorem ipsum dolor sit amet, consectetur adipisicing elit.
-                                                Adipisci
-                                                aliquam architecto autem delectus dolore, est expedita impedit ipsum
-                                                mollitia quas.</Info.MainText>
+                                            <Info.MainHeaderText>{post.blogTitle}</Info.MainHeaderText>
+                                            <Info.MainText>GP Bahrajnu już za nami, tym samym Frevky okazał się królem pustyni, plasując się na 1 miejscu w klasyfikacji wyścigowej oraz klasyfikacji generalnej.</Info.MainText>
                                         </Info.MainTextWrapper>
                                     </Info.MainCardLink>
                                 </Info.MainCardWrapper>

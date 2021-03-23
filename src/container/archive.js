@@ -17,7 +17,7 @@ export function ArchiveContainer() {
                 </Archive.LinkWrapper>
                 <Archive.LinkWrapper href={'https://www.youtube.com/playlist?list=PLnyhahC3DR6UiDG-RUv7Wm4MFGU1sYwes'} target={"_blank"}>
                     <Archive.Text>Zapisy sezonu 3</Archive.Text>
-                    <Archive.Image src={'/images/main.png'}/>
+                    <Archive.Image src={'/images/sezon3.png'}/>
                 </Archive.LinkWrapper>
             </Archive.Wrapper>
         </Archive>

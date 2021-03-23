@@ -8,7 +8,7 @@ function App() {
     <Router>
         <Switch>
             <Route exact path="/">
-                <HomePage />
+                <HomePage/>
             </Route>
             <Route exact path="/O-Nas">
                 <About />

@@ -12,8 +12,8 @@ export const MainTitle = styled.div`
   width: 100%;
   padding:0 20%;
   box-sizing: border-box;
-  margin-top: 30px;
-  font-size: 2rem;
+  margin:30px 0px 15px 0px;
+  font-size: 3.2rem;
 `;
 export const SubTitle = styled.div`
 `;
@@ -23,11 +23,17 @@ export const Text = styled.p`
   box-sizing: border-box;
   font-size: 1.4rem;
   line-height: 1.9rem;
-  margin-bottom: 100px;
+  margin: 0px;
+  margin-top: 20px;
 `;
 export const Paragraphs = styled.h3`
 `;
 export const Image = styled.img`
+  width: 60vw;
+  margin: 50px auto;
+  @media screen and (max-width: 900px){
+    width: 80vw;
+  }
 `;
 export const LinkA = styled(Link)`
 `;
@@ -37,7 +43,8 @@ export const InfoWrapper = styled.div`
   display: flex;
   padding-left: 20%;
   box-sizing: border-box;
+  margin-bottom: 50px;
 `;
 export const InfoA = styled.p`
-    margin: 0 10px;
+  margin: 10px 5px;
 `;
