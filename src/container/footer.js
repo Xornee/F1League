@@ -21,7 +21,7 @@ export function FooterContainer() {
                     <Footer.Button>Discord</Footer.Button>
                 </Footer.ButtonWrapper>
 
-                <Footer.ButtonWrapper color={"#19171C"}  href={'https://www.facebook.com/IF1eL/'} target={'_blank'}>
+                <Footer.ButtonWrapper color={"#19171C"}  href={'https://www.instagram.com/internationalf1league_original/'} target={'_blank'}>
                     <Footer.ButtonIcon src={'./images/instagram.jpg'} bgColor={"#3A5A98"} size={'60px'}/>
                     <Footer.Button>Instagram</Footer.Button>
                 </Footer.ButtonWrapper>
