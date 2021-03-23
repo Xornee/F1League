@@ -9,6 +9,8 @@ export const TextWrapper = styled.div`
   display: flex;
   flex-direction: column;
   justify-content: center;
+  background-color: orange;
+  color: white;
   width: 45%;
 `;
 export const ImageWrapper = styled.div`
@@ -57,7 +59,7 @@ export const Wave = styled.div`
   height: 0;
   border-top: 75vh solid transparent;
   border-bottom: 0px solid transparent;
-  border-left: 20vw solid white;
+  border-left: 20vw solid orange;
   z-index: 100;
 `;
 export const Button = styled.a`
