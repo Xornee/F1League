@@ -4,10 +4,19 @@ import {Link} from 'react-router-dom';
 export const Container = styled.div`
   height: 75vh;
   display: flex;
+`;
+export const TextWrapper = styled.div`
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  width: 45%;
+`;
+export const ImageWrapper = styled.div`
+  width: 55%;
+  height: 100%;
+  display: flex;
   justify-content: center;
   align-items: center;
-  flex-direction: column;
-  flex-wrap: wrap;
   background:
           linear-gradient(
                   rgba(0, 0, 0, 0.5),
@@ -17,21 +26,10 @@ export const Container = styled.div`
   background-size: cover;
   background-position: center;
 `;
-export const TextWrapper = styled.div`
-  height: 70%;
-  display: flex;
-  justify-content: space-between;
-  align-items: center;
-  flex-direction: column;
-  text-align: center;
-
-`;
 export const TextBig = styled.h1`
- font-size: 6rem;
-  max-width: 1400px;
-  margin:0 50px ;
+  font-size: 5rem;
+  margin:-50px 50px 0px 50px;
   font-family: 'Orbitron', sans-serif;
-  color: white;
   @media screen and (max-width: 1050px){
     font-size: 5rem;
   }
@@ -45,7 +43,6 @@ export const TextBig = styled.h1`
 export const Text = styled.h2`
   font-size: 2.2rem;
   font-family: 'Orbitron', sans-serif;
-  color: white;
   margin:0 50px ;
   @media screen and (max-width: 600px){
     font-size: 1.5rem ;
@@ -54,18 +51,28 @@ export const Text = styled.h2`
     font-size: 1rem ;
   }
 `;
+export const Wave = styled.div`
+  margin-right: -20%;
+  width: 0;
+  height: 0;
+  border-top: 75vh solid transparent;
+  border-bottom: 0px solid transparent;
+  border-left: 20vw solid white;
+  z-index: 100;
+`;
 export const Button = styled.a`
+  margin-left: 25%;
   color: white;
   text-decoration: none ;
   border: 2px solid white;
-  padding: 25px 110px;
-  font-size: 2rem;
+  padding: 30px 150px;
+  font-size: 3rem;
   color: white;
   cursor: pointer;
   transition: all ease-out 0.2s;
   :hover{
     transform: scale(1.1);
-    font-size: 2.1rem;
+    font-size: 3.1rem;
   }
   @media screen and (max-width: 600px){
     padding: 15px 60px;

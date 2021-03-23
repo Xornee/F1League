@@ -7,16 +7,15 @@ export const Container = styled.div`
   display: flex;
   align-items: center;
   justify-content: center;
-  z-index: 100;
 `;
 export const Logo = styled.img`
-  height: 10vh;
-  position: absolute;
-  top: 0;
-  left: calc(50% - 5vh);
+  height: 7vh;
+  margin: 0 30px;
 `;
 export const LinkA = styled(Link)`
   color: white;
+  display: flex;
+  align-items: center;
   text-decoration: none;
   margin:0 35px;
   font-size: 1.4rem;
@@ -27,6 +26,8 @@ export const LinkA = styled(Link)`
   }
   @media screen and (max-width: 1150px){
     font-size: 2rem;
+    flex-direction: column;
+    margin-top: 5px;
   }
 `;
 export const LinkWrapper = styled.div`
@@ -34,7 +35,7 @@ export const LinkWrapper = styled.div`
   display: flex;
   flex-direction: row;
   align-items: center;
-  justify-content: center;
+  justify-content: flex-end;
   margin-right: 50px;
   @media screen and (max-width: 1150px){
     flex-direction: column;
@@ -48,7 +49,6 @@ export const NavWrapper = styled.div`
   display: flex;
   align-items: center;
   justify-content: center;
-  max-width: 1500px;
   width: 100%;
   @media screen and (max-width: 1150px){
     display: flex;
