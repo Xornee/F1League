@@ -39,6 +39,9 @@ function App() {
             </Route>
             <Route exact path="/Info/:id" component={Article}>
             </Route>
+            <Route exact path="/partnerzy">
+                <HomePage />
+            </Route>
         </Switch>
     </Router>
     );

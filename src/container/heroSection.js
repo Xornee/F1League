@@ -2,7 +2,7 @@ import React from 'react';
 import { HeroSection } from '../components';
 export function HeroContainer() {
     return (
-        <HeroSection>
+        <HeroSection image={'/images/main.png'}>
             <HeroSection.TextWrapper>
                 <HeroSection.TextBig>Rekrutacja do 3 sezonu nadal trwa!</HeroSection.TextBig>
                 <HeroSection.Text>Przejdz rekrutacje i scigaj sie u nas!</HeroSection.Text>
