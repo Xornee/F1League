@@ -16,6 +16,7 @@ export const LinkA = styled(Link)`
   color: white;
   display: flex;
   align-items: center;
+  text-align: center;
   text-decoration: none;
   margin:0 35px;
   font-size: 1.4rem;
