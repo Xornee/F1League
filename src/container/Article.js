@@ -18,7 +18,7 @@ export function ArticleContainer({ match }) {
                     )
                 })
             }
-            <Article.Image src={product.blogImage}></Article.Image>
+            <Article.Image src={product.TextImage}></Article.Image>
             <Article.InfoWrapper>
                 <Article.InfoA> Autor : {product.author}</Article.InfoA>
                 <Article.InfoA> Kategoria : {product.blogCategory}</Article.InfoA>

@@ -25,7 +25,7 @@ export function InfoContainer({Message}) {
                                         <Info.MainImageCard src={post.blogImage}/>
                                         <Info.MainTextWrapper>
                                             <Info.MainHeaderText>{post.blogTitle}</Info.MainHeaderText>
-                                            <Info.MainText>GP Bahrajnu już za nami, tym samym Frevky okazał się królem pustyni, plasując się na 1 miejscu w klasyfikacji wyścigowej oraz klasyfikacji generalnej.</Info.MainText>
+                                            <Info.MainText>{post.blogSubtitle}</Info.MainText>
                                         </Info.MainTextWrapper>
                                     </Info.MainCardLink>
                                 </Info.MainCardWrapper>
