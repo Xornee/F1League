@@ -12,11 +12,23 @@ export const Container = styled.div`
 export const MainHeaderText = styled.h2`
   font-size: 3rem;
   margin: 0;
+  @media screen and (max-width: 1410px){
+    font-size: 2rem;
+  }
+  @media screen and (max-width: 1200px){
+    font-size: 1.3rem;
+  }
 `;
 export const MainText = styled.h2`
   font-size: 1.7rem;
   padding-top: 20px;
   margin: 0;
+  @media screen and (max-width: 1410px){
+    font-size: 1.3rem;
+  }
+  @media screen and (max-width: 1200px){
+    font-size: 1rem;
+  }
 `;
 export const MainCardWrapper = styled.div`
   padding: 35px;
@@ -30,7 +42,7 @@ export const MainCardWrapper = styled.div`
   }
 `;
 export const MainTextWrapper = styled.div`
-  width: 40%;
+  width: 55%;
   padding: 20px;
   padding-top: 0;
   @media screen and (max-width: 650px){
