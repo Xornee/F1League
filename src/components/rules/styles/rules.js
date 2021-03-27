@@ -10,15 +10,17 @@ export const Container = styled.div`
   margin-bottom: 100px;
 `;
 export const MainTitle = styled.h2`
-   font-size: 3rem; 
+  font-size: 3rem;
+  text-align: center;
 `;
 export const RulesTitle = styled.div`
   font-size: 2rem;
   text-decoration: underline;
   margin-top: 50px;
+  text-align: center;
 `;
 export const Text = styled.p`
-   font-size: 1.3rem; 
+  font-size: 1.3rem; 
   max-width: 80%;
   text-align: center;
 `;
