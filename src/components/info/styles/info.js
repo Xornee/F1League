@@ -40,6 +40,7 @@ export const MainTextWrapper = styled.div`
 export const MainCardLink = styled(Link)`
   width: 100%;
   display: flex;
+  justify-content: space-between;
   text-decoration: none;
   color: black;
   @media screen and (max-width: 650px){
@@ -49,12 +50,9 @@ export const MainCardLink = styled(Link)`
     text-align: center;
   }
 `;
-export const MainImageCard = styled.div`
-  height: 550px;
-  width: 60%;
-  background-image: url(${({ image }) => image});
-  background-position: center;
-  background-size: cover;
+export const MainImageCard = styled.img`
+  width: 45%;
+  justify-self: center;
   -webkit-box-shadow: 0px 0px 18px -5px #000000;
   box-shadow: 0px 0px 18px -5px #000000;
   @media screen and (max-width: 650px){
@@ -77,13 +75,10 @@ export const CardWrapper = styled.div`
   }
 `;
 
-export const ImageCard = styled.div`
-  height: 370px;
-  width: 60%;
+export const ImageCard = styled.img`
+  width: 70%;
+  height: 80%;
   margin:0;
-  background-image: url('');
-  background-position: center;
-  background-size: cover;
   @media screen and (max-width: 650px){
     width: 80%;
     margin:50px 0;
