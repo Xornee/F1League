@@ -1,6 +1,6 @@
 import React from 'react'
 import { BrowserRouter as Router, Switch, Route } from 'react-router-dom';
-import { HomePage, About, Table, Info, Archive, Register, Article } from "./pages";
+import { HomePage, About, Table, Info, Archive, Register, Article, AddArticle, AddDriver, DriversList, AdminPage } from "./pages";
 import ThermsOfUse from "./pages/ThermsOfUse";
 
 function App() {
@@ -37,9 +37,24 @@ function App() {
             <Route exact path="/Register">
                 <Register />
             </Route>
-            <Route exact path="/Info/:id" component={Article}>
+            <Route exact path="/Info/:id" component={Article} />
+            <Route exact path="/Dodaj-Artykul">
+                <AddArticle />
             </Route>
-            <Route exact path="/partnerzy">
+            <Route exact path="/Kierowcy">
+                <DriversList />
+            </Route>
+            <Route exact path="/Login">
+                <Register />
+            </Route>
+            <Route exact path="/Dodaj-Kierowce">
+                <AddDriver />
+            </Route>
+            <Route exact path="/Admin">
+                <AdminPage />
+            </Route>
+            <Route exact path="/Kierowcy/:id" component={HomePage} />
+            <Route exact path="/Partnerzy">
                 <HomePage />
             </Route>
         </Switch>
