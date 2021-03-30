@@ -9,3 +9,4 @@ export { default as AddArticle} from './AddArticle';
 export { default as AddDriver} from './AddDriver';
 export { default as DriversList} from './DriversList';
 export { default as AdminPage} from './AdminPage';
+export { default as Driver} from './Driver';

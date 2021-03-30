@@ -1,6 +1,6 @@
 import React from 'react'
 import { BrowserRouter as Router, Switch, Route } from 'react-router-dom';
-import { HomePage, About, Table, Info, Archive, Register, Article, AddArticle, AddDriver, DriversList, AdminPage, Diver } from "./pages";
+import { HomePage, About, Table, Info, Archive, Register, Article, AddArticle, AddDriver, DriversList, AdminPage, Driver } from "./pages";
 import ThermsOfUse from "./pages/ThermsOfUse";
 
 function App() {
